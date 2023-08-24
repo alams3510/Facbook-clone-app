@@ -1,0 +1,96 @@
+.shareContainer {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  margin-top: 20px;
+}
+.shareWrapper {
+  padding: 10px;
+}
+.shareTop {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+.shareImg {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.shareImgs {
+  width: 65px;
+  height: 45px;
+  border-radius: 5%;
+  object-fit: cover;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.shareText {
+  font-weight: 400;
+  color: grey;
+  font-size: 15px;
+  width: 100%;
+  border: none;
+}
+.shareText:focus{
+  outline: none;
+}
+.shareLine {
+  width: 90%;
+  margin: 10px auto;
+}
+.shareDown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 15px auto;
+}
+.shareOptions {
+  display: flex;
+  align-items: center;
+}
+.photoUpload {
+  display: flex;
+  margin-right: 20px;
+  align-content: center;
+  cursor: pointer;
+}
+.uploadText:hover{
+  cursor: pointer;
+}
+.shareIcon {
+  font-size: 20px;
+  margin-right: 5px;
+}
+.shareCancelImg:hover{
+  cursor: pointer;
+  
+}
+
+#photo {
+  color: tomato;
+}
+#tag {
+  color: blue;
+}
+#loc {
+  color: green;
+}
+#feel {
+  color: goldenrod;
+}
+.sbtn {
+  padding: 5px 6px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+  color: white;
+  background-color: green;
+  cursor: pointer;
+  border: none;
+}

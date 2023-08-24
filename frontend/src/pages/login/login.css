@@ -1,0 +1,77 @@
+.registerContainer {
+  width: 100%;
+  height: 100vh;
+  background-color: #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.registerWrapper {
+  width: 70%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.textRegister {
+  display: flex;
+  flex-direction: column;
+}
+.texts {
+  font-size: 50px;
+  font-weight: 900;
+  color: #1775ee;
+  margin-bottom: 10px;
+}
+.desc {
+  font-size: 24px;
+}
+.registerform {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.registerInputs {
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  font-size: 18px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+.registerInputs:focus {
+  outline: none;
+}
+#signup {
+  color: white;
+  background-color: #1775ee;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+#signup:hover{
+  background-color: #064ead;
+}
+#loginto {
+  color: white;
+  background-color: #42b72a;
+  font-weight: 500;
+  font-size: 20px;
+  width: 50%;
+  margin: 0 auto;
+  cursor: pointer;
+}
+#loginto:hover{
+  background-color: #176707;
+}
+.link {
+  text-decoration: none;
+  margin: 0 auto 10px auto;
+  color: #1775ee;
+  cursor: pointer;
+}
